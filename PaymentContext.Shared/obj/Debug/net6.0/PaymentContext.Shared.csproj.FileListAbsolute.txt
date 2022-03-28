@@ -1,0 +1,12 @@
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.deps.json
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.dll
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\bin\Debug\net6.0\ref\PaymentContext.Shared.dll
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.pdb
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.csproj.AssemblyReference.cache
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.AssemblyInfo.cs
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.dll
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\ref\PaymentContext.Shared.dll
+F:\DEVPROJECTS\VisualStudio\Repositories\PaymentContext\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.pdb
