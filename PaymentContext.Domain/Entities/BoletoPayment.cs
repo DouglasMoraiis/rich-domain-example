@@ -1,8 +1,9 @@
 using PaymentContext.Domain.ValueObjects;
+using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities
 {
-    public class BoletoPayment : Payment
+    public class BoletoPayment : Payment 
     {
         public BoletoPayment(
             DateTime paidDate,
