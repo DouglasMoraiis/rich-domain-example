@@ -1,4 +1,6 @@
 using System.Text.RegularExpressions;
+using Flunt.Notifications;
+using Flunt.Validations;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 
@@ -27,15 +29,21 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
-            if (true)
+            var hasSubscriptionActive = false;
+            foreach (var sub in _subscriptions)
             {
-
+                if (sub.Active)
+                    hasSubscriptionActive = true;
             }
 
-            foreach (var sub in Subscriptions)
-                sub.Inactivate();
+            AddNotifications(new Contract<Notification>()
+                .Requires()
+                .IsFalse(hasSubscriptionActive, "Student.Subscriptions", "Você já tem uma assinatura ativa")
+            );
 
-            _subscriptions.Add(subscription);
+            // ALTERNATIVE
+            // if (hasSubscriptionActive)
+            //     AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
         }
     }
 }
